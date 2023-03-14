@@ -5,7 +5,7 @@ document.getElementById('addListItem').addEventListener('click', () => {
   let listItemContentEl = document.getElementById('newItemInput');
   // Беремо введене значення
   let listItemContentText = listItemContentEl.value;
-
+  console.log(listItemContentText);
   // Якщо значення є - додаємо новий елемент до списку
   if (listItemContentText) {
     // Створюємо елемент
@@ -30,3 +30,8 @@ document.getElementById('loadItems').addEventListener('click', () => {
   xhttp.open('GET', '_items.html', true);
   xhttp.send();
 })
+
+const button = document.getElementById("removeItems");
+        button.onclick = function () {
+            document.getElementById("myList").innerHTML = "";
+        };

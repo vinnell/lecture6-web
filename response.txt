@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+content-type: text/html
+server: IntelliJ IDEA 2022.2.2
+date: Tue, 14 Mar 2023 13:12:19 GMT
+x-frame-options: SameOrigin
+X-Content-Type-Options: nosniff
+x-xss-protection: 1; mode=block
+accept-ranges: bytes
+cache-control: no-cache
+last-modified: Tue, 14 Mar 2023 13:10:15 GMT
+content-length: 140

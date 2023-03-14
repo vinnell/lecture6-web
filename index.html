@@ -5,8 +5,16 @@
   <title>Моя перша сторінка</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <h1>Моя перша сторінка</h1>
+<body >
+   <div class="main">
+   <h1 >Привіт, моє ім'я- Олена Вінницька!</h1>
+   <p id="hello">
+     <h3>Це моя перша сторінка! Місто, де я зараз живу,- прекрасна і мальовнича Аланія.</h3>
+     <a href="https://github.com/vinnell">Github сторінка Олени Вінницької</a>
+     <img src="https://th.bing.com/th/id/OIP.qWmKbEYm_wAPB8DSSvWLBwHaFj?pid=ImgDet&rs=1"
+     alt="Аланія">
+     </p>
+ </div>
   <div class="todoList">
     <h3>Список задач</h3>
     <ul id="myList">
@@ -14,6 +22,7 @@
     <input type="text" name="newItemInput" id="newItemInput">
     <input type="button" name="addListItem" value="Додати задачу" id="addListItem">
     <input type="button" name="loadItems" value="Завантажити задачі" id="loadItems">
+    <button id='removeItems'>Видалити всі задачі</button>
   </div>
   <div id="dataLoader">
 
